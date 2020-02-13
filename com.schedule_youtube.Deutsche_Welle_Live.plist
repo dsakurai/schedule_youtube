@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <!--Open a webpage everyday-->
+    
+    <key>Label</key>
+        <string>com.schedule_youtube.Deutsche_Welle_Live</string>
+
+    <key>ProgramArguments</key>
+        <array>
+            <!--Run the Automator workflow-->
+            <string>automator</string>
+            <!--On iCloud Drive-->
+            <string>/Users/daisuke/Library/Mobile Documents/com~apple~Automator/Documents/Deutsche Welle Live.workflow</string>
+        </array>
+
+    <!--Based on calendar time-->
+    <key>StartCalendarInterval</key>
+        <dict>
+            <!--7AM-->
+            <key>Hour</key>
+            <integer>7</integer>
+        </dict>
+</dict>
+</plist>
+
